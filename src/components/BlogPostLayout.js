@@ -4,6 +4,7 @@ import { MDXProvider } from '@mdx-js/react'
 import siteMetadata from '../siteMetadata'
 import ArticleMeta from './ArticleMeta'
 import Bio from './Bio'
+import NavMenu from './NavMenu'
 import styles from './BlogPostLayout.module.css'
 
 function BlogPostLayout({ blogRoot }) {
@@ -17,6 +18,7 @@ function BlogPostLayout({ blogRoot }) {
   return connect(
     <>
       {head}
+      {NavMenu()}
       <article className={styles.container}>
         <header className={styles.header}>
           <h1 className={styles.title}>
