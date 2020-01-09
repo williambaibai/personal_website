@@ -7,3 +7,29 @@
   margin-bottom: 2.4rem;  
   text-rendering: optimizeLegibility;
 }
+
+.container_xl{
+  padding: 0;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.ending_ele{
+  margin-bottom: 4rem;
+}
+
+.container{
+  width:100%;
+  padding: 0;
+}
+
+.new_promotion{
+  color: red;
+  font-size: 1.2em;
+}
+
+.promotion_name{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
