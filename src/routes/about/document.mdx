@@ -1,24 +1,119 @@
 import styles from './document.module.css'
+import cornell from '../../static/cornell.png'
+import morgan from '../../static/morgan.jpeg'
+import greenclub from '../../static/greenclub.png'
+import appdev from '../../static/appdev.png'
+import uplift from '../../static/uplift.png'
+import NavMenu from '../../components/NavMenu'
+
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossOrigin="anonymous"
+/>
 
 <div className={styles.Document}>
 
 # About Me
 
-<div className = "container_xl ending_ele">
-    <div className = "container">
-      <div className = "item_box">
-        <div className = "col-sm-8">
-        <p className = "lead">
-          <span className = "new_promotion dashboard_text">Text</span>
-          <span className = "promotion_name dashboard_text">Text2</span>
-          <br/>
-          <span className = "dashboard_text">Text3</span>
-          <a className="dashboard_text" target="_blank" href="#">Link</a>
-        </p>
-        </div>
-      </div>
+<h2 className={styles.section_title_lead}> Eduction </h2>
+
+<div className = "offset-sm-1 col-sm-13">
+  <div className = {styles.busi_box}>
+    <img className = "col-sm-4 dashboard_logo" className={styles.busi_img} src = {cornell} />
+    <div className = "col-sm-8">
+      <p className = "lead">
+        <span className = {styles.dashboard_text, styles.promotion_name}>Cornell University</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Bachelor of Arts in Computer Science '20</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Master of Engineering in Computer Science '20</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.small_text}>Minors in Philosophy, Applied Economics, Business</span>
+        <br/>
+        <a className={styles.dashboard_text} target="_blank" href="#"></a>
+      </p>
     </div>
+  </div>
 </div>
+
+<h2 className={styles.section_title}> Work Experience </h2>
+
+<div className = "offset-sm-1 col-sm-13">
+  <div className = {styles.busi_box}>
+    <img className = "col-sm-4 dashboard_logo" className={styles.busi_img} src = {morgan} />
+    <div className = "col-sm-8">
+      <p className = "lead">
+        <span className = {styles.dashboard_text, styles.promotion_name}>Morgan Stanley</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Summer Technology Analyst '19</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.small_text}>Corporate and Funding Technology</span>
+        <br/>
+        <a className={styles.dashboard_text} target="_blank" href="#"></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className={styles.item_padding}></div>
+
+<div className = "offset-sm-1 col-sm-13">
+  <div className = {styles.busi_box}>
+    <img className = "col-sm-4 dashboard_logo" className={styles.busi_img} src = {greenclub} />
+    <div className = "col-sm-8">
+      <p className = "lead">
+        <span className = {styles.dashboard_text, styles.promotion_name}>GreenClub</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Web Development Lead</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.small_text}>Non-profit startup providing an easy way to buy carbon offsets with a monthly subscription. </span>
+        <br/>
+        <a className={styles.dashboard_text, styles.small_text} target="_blank" href="https://www.joingreenclub.com/">Website</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<h2 className={styles.section_title}> Extracurricular </h2>
+
+<div className = "offset-sm-1 col-sm-13">
+  <div className = {styles.busi_box}>
+    <img className = "col-sm-4 dashboard_logo" className={styles.busi_img} src = {appdev} />
+    <div className = "col-sm-8">
+      <p className = "lead">
+        <span className = {styles.dashboard_text, styles.promotion_name}>Cornell AppDev</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Backend Developer</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.small_text}>Project team creating exciting apps such as Uplift, Eatery, and Transit. </span>
+        <br/>
+        <a className={styles.dashboard_text, styles.small_text} target="_blank" href="https://www.cornellappdev.com/">Website</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className={styles.item_padding}></div>
+
+<div className = "offset-sm-1 col-sm-13">
+  <div className = {styles.busi_box}>
+    <img className = "col-sm-4 dashboard_logo" className={styles.busi_img} src = {uplift} />
+    <div className = "col-sm-8">
+      <p className = "lead">
+        <span className = {styles.dashboard_text, styles.promotion_name}>Uplift</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.medium_text}>Backend Developer</span>
+        <br/>
+        <span className = {styles.dashboard_text, styles.small_text}>Staying fit at Cornell is easier than ever! </span>
+        <br/>
+        <a className={styles.dashboard_text, styles.small_text} target="_blank" href="https://apps.apple.com/us/app/uplift-cornell-fitness/id1439374374">App Store Link</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 <footer></footer>
 
 </div>

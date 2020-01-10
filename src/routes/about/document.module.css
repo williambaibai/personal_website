@@ -23,13 +23,45 @@
   padding: 0;
 }
 
-.new_promotion{
-  color: red;
-  font-size: 1.2em;
-}
-
 .promotion_name{
   font-weight: bold;
   font-size: 1.2em;
 }
 
+.small_text{
+  font-size:0.8em;
+}
+
+.medium_text{
+  font-size:0.9em;
+}
+
+.busi_box{
+  height: 10vw;
+  display: flex;
+  align-items: center;
+}
+
+.busi_img{
+  max-width:130px;
+  max-height: 130px;
+}
+
+.section_title{
+  padding: 1px;
+}
+
+
+@media only screen and (max-width: 640px)  {
+  .section_title_lead{
+    padding-bottom: 3em;
+  }
+  .section_title{
+    padding-bottom: 3em;
+    padding-top: 3em;
+  }
+  .item_padding{
+    height:150px;
+  }
+  
+}
