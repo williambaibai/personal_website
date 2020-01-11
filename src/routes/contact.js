@@ -1,13 +1,9 @@
 import React from 'react'
-import { mount, route } from 'navi'
+import * as Navi from 'navi'
 
-export default mount({
-  '/contact': route({
-    title: 'Contact',
-    getView: () => {
-        return(
-            <h1> Hello </h1>
-        );
-    },
-  })
+export default Navi.route({
+    title: "Contact",
+    getView: () => {return(
+        <h1> Hello </h1>
+    );}
 })
