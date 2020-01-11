@@ -29,7 +29,7 @@ class NavMenu extends React.Component {
 
   render() {
     const { width } = this.state;
-    const isMobile = width <= 991;
+    const isMobile = width <= 1280;
     if (!isMobile) {
       return(
         <aside id={styles.nav_aside}>
@@ -37,7 +37,7 @@ class NavMenu extends React.Component {
           <nav id={styles.nav_menu} className={styles.textcenter}>
             <ul>
               <li><a href = '/'>Blog</a></li>
-              <li><a href = '/about/'>About Me</a></li>
+              <li><a href = '/about/'>About</a></li>
               <li><a href = '/about/'>Photography</a></li>
               <li><a href = '/about/'>Projects</a></li>
               <li><a href = '/about/'>Contact</a></li>
@@ -62,7 +62,7 @@ class NavMenu extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link href="/">Blog</Nav.Link>
-                <Nav.Link href="/about/">About Me</Nav.Link>
+                <Nav.Link href="/about/">About</Nav.Link>
                 <Nav.Link href="/about/">Photography</Nav.Link>
                 <Nav.Link href="/about/">Projects</Nav.Link>
                 <Nav.Link href="/about/">Contact</Nav.Link>

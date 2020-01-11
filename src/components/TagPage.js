@@ -1,10 +1,12 @@
 import React from 'react'
 import ArticleSummary from './ArticleSummary'
 import styles from './TagPage.module.css'
+import NavMenu from './NavMenu'
 
 function TagPage({ blogRoot, name, routes }) {
   return (
     <div className={styles.TagPage}>
+      <NavMenu></NavMenu>
       <h1>{name} posts</h1>
       <ul>
         {routes.map(route =>
