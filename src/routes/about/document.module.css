@@ -40,6 +40,7 @@
   height: 10vw;
   display: flex;
   align-items: center;
+  min-height: 200px;
 }
 
 .busi_img{

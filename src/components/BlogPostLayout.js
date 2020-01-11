@@ -17,8 +17,8 @@ function BlogPostLayout({ blogRoot }) {
   // with <Link>, and thus use pushState.
   return connect(
     <>
+      <NavMenu></NavMenu>
       {head}
-      {NavMenu()}
       <article className={styles.container}>
         <header className={styles.header}>
           <h1 className={styles.title}>

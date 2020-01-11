@@ -10,13 +10,13 @@ import styles from './BlogIndexPage.module.css'
 function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
     <div id={styles.mainpage}>
+      <NavMenu></NavMenu>
       <header>
         <h1 className={styles.title}>
           <Link href={blogRoot}>{siteMetadata.title}</Link>
         </h1>
         <Bio />
       </header>
-      {NavMenu()}
       <ul className={styles.articlesList}>
         {postRoutes.map(route => (
           <li key={route.url.href}>
