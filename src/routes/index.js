@@ -17,6 +17,7 @@ import BlogLayout from '../components/BlogLayout'
 import BlogPostLayout from '../components/BlogPostLayout'
 import siteMetadata from '../siteMetadata'
 import posts from './posts'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Split the posts into a list of chunks of the given size, and
 // then build index pages for each chunk.
@@ -101,6 +102,8 @@ const routes = compose(
     '/tags': lazy(() => import('./tags')),
     '/about': lazy(() => import('./about')),
     '/contact': lazy(() => import('./contact')),
+    '/photo': lazy(() => import('./photo')),
+    'projects': lazy(() => import('./projects')),
 
     // Only the statically built copy of the RSS feed is intended to be opened,
     // but the route is defined here so that the static renderer will pick it

@@ -1,0 +1,121 @@
+import React from 'react'
+import * as Navi from 'navi'
+import NavMenu from '../components/NavMenu'
+import ModalImage from "react-modal-image";
+import {Container, Row, Col} from 'react-bootstrap';
+
+export default Navi.route({
+    title: "Contact",
+    getView: () => {
+        return(
+        <div>
+            <link
+                rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossOrigin="anonymous"
+            />
+            <NavMenu></NavMenu>
+            <br/>
+            <h1> Photography </h1>
+            <br/>
+            <Container>
+                <Row>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/ollie_on_sofa.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/ollie_on_sofa.jpg'
+                            alt="Ollie on Couch"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/shuiwujian.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/shuiwujian.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/explorer_lume.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/explorer_lume.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/paifang.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/paifang.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/ku_on_stairs.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/ku_on_stairs.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/paocai.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/paocai.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/cancun1.JPG'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/cancun1.JPG'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/island.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/island.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/beach.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/beach.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/berlin.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/berlin.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/casa.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/casa.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                    <Col>
+                        <ModalImage
+                            small='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/familia.jpg'
+                            large='https://raw.githubusercontent.com/williambaibai/personal_website_asset/master/photography/familia.jpg'
+                            alt="Gundam"
+                        />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+    );}
+})

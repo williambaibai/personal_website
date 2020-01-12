@@ -37,10 +37,10 @@ class NavMenu extends React.Component {
           <nav id={styles.nav_menu} className={styles.textcenter}>
             <ul>
               <li><a href = '/'>Blog</a></li>
-              <li><a href = '/about/'>About</a></li>
-              <li><a href = '/about/'>Photography</a></li>
-              <li><a href = '/about/'>Projects</a></li>
-              <li><a href = '/about/'>Contact</a></li>
+              <li><a href = '/about'>About</a></li>
+              <li><a href = '/photo'>Photography</a></li>
+              <li><a href = '/projects'>Projects</a></li>
+              <li><a href = '/contact'>Contact</a></li>
             </ul>
           </nav>
           <div className={styles.nav_footer} >
@@ -62,10 +62,10 @@ class NavMenu extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
                 <Nav.Link href="/">Blog</Nav.Link>
-                <Nav.Link href="/about/">About</Nav.Link>
-                <Nav.Link href="/about/">Photography</Nav.Link>
-                <Nav.Link href="/about/">Projects</Nav.Link>
-                <Nav.Link href="/about/">Contact</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/photo">Photography</Nav.Link>
+                <Nav.Link href="/projects">Projects</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

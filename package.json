@@ -15,6 +15,7 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.8.6",
+    "react-modal-image": "^2.5.0",
     "react-navi": "^0.13.3",
     "react-navi-helmet-async": "^0.13.3",
     "react-scripts-mdx": "3.0.3",
